@@ -26,6 +26,7 @@ if by chance you dont have nodejs you can easliy install in by sudo apt install 
 if you dont have clangd then you can install it following this guide https://clangd.llvm.org/installation.html
 * 4. After that you can just write :CocInstall coc-clangd and you c++\c should be working after you :w and :source % again
 * 5. Now you can copy and paste the remaining lines<br />
+_______________________________________________________________________________________________________________________
 if(has("termguicolors"))<br />
         set termguicolors<br />
 endif<br />
