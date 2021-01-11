@@ -18,11 +18,11 @@ ________________________________________________________________________________
       Plug 'zchee/deoplete-jedi'
       call plug#end()
 ___________________________________________________________________________________________________________________
-     now all these are plugins to make your nvim better. You can read more about them in detail over here<br />
-     https://github.com/preservim/nerdtree<br />
-     https://github.com/neoclide/coc.nvim<br />
-     https://github.com/dracula/vim<br />
-     https://github.com/deoplete-plugins/deoplete-jedi<br />
+     now all these are plugins to make your nvim better. You can read more about them in detail over here
+     https://github.com/preservim/nerdtree
+     https://github.com/neoclide/coc.nvim
+     https://github.com/dracula/vim
+     https://github.com/deoplete-plugins/deoplete-jedi
 * Before you go ahead you most have nodejs and clangd for c/c++ auto complete to work so go on write :w and then :source % and :wq
 if by chance you dont have nodejs you can easliy install in by sudo apt install nodejs for ubuntu
 if you dont have clangd then you can install it following this guide https://clangd.llvm.org/installation.html<br />
