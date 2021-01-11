@@ -82,4 +82,4 @@ ________________________________________________________________________________
  and open a c\c++ file with the .c or .cpp extension your auto complete most be working if everthing has be done right<br />
  # This is what you neovim should look like
  
- 
+ ![](image/Screenshot.png)
