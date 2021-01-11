@@ -75,7 +75,7 @@ set winheight=38<br />
 nnoremap <leader>t :wincmd b\| bel terminal<CR><br />
 __________________________________________________________________________________________________________________________
   
- these lines give to a better vim experince you could easly change things like you leader key is you want by defalt in these you new leader key = ","
+ these lines give to a better vim experince you could easly change things like you leader key is you want by defalt in <br />these you new leader key = ","
  know if you :w :source :wq
  and open a c\c++ file with the .c or .cpp extension your auto complete most be working if everthing has be done right<br />
  # This is what you neovim should look like
