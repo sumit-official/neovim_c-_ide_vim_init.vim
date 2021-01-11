@@ -7,9 +7,11 @@ vim is great for competivite programming but with this setup you could use its l
 # Requirement
 * neovim (the better version of vim) you can get neovim from here https://github.com/neovim/neovim
 * vim-plug(this is to install plugins) you can get it from here https://github.com/junegunn/vim-plug
-* 1. You must locate you init.vim file if you didnt set it up you can do the following:-
+# 1
+* You must locate you init.vim file if you didnt set it up you can do the following:-
       * cd ~/.config/nvim/ and the touch init.vim
-* 2. Go in there and paste the following:-<br />
+# 2
+* Go in there and paste the following:-<br />
 ___________________________________________________________________________________________________________________
       call plug#begin()<br />
       Plug 'preservim/nerdtree'<br />
@@ -23,11 +25,14 @@ https://github.com/preservim/nerdtree<br />
 https://github.com/neoclide/coc.nvim<br />
 https://github.com/dracula/vim<br />
 https://github.com/deoplete-plugins/deoplete-jedi<br />
-* 3. Before you go ahead you most have nodejs and clangd for c/c++ auto complete to work so go on write :w and then :source % and :wq
+# 3
+* Before you go ahead you most have nodejs and clangd for c/c++ auto complete to work so go on write :w and then :source % and :wq
 if by chance you dont have nodejs you can easliy install in by sudo apt install nodejs for ubuntu
 if you dont have clangd then you can install it following this guide https://clangd.llvm.org/installation.html
-* 4. After that you can just write :CocInstall coc-clangd and you c++\c should be working after you :w and :source % again
-* 5. Now you can copy and paste the remaining lines<br />
+# 4
+* After that you can just write :CocInstall coc-clangd and you c++\c should be working after you :w and :source % again
+# 5 
+* Now you can copy and paste the remaining lines<br />
 _______________________________________________________________________________________________________________________
 if(has("termguicolors"))<br />
         set termguicolors<br />
