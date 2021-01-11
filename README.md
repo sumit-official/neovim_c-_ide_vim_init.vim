@@ -10,12 +10,14 @@ vim is great for competivite programming but with this setup you could use its l
 * 1. You must locate you init.vim file if you didnt set it up you can do the following:-
       * cd ~/.config/nvim/ and the touch init.vim
 * 2. Go in there and paste the following:-<br />
+___________________________________________________________________________________________________________________
       call plug#begin()<br />
       Plug 'preservim/nerdtree'<br />
       Plug 'neoclide/coc.nvim'<br />
       Plug 'dracula/vim'<br />
       Plug 'zchee/deoplete-jedi'<br />
       call plug#end()<br />
+___________________________________________________________________________________________________________________
 now all these are plugins to make your nvim better. You can read more about them in detail over here<br />
 https://github.com/preservim/nerdtree<br />
 https://github.com/neoclide/coc.nvim<br />
